@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ma météo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+<div class="border-station">
+        <!-- Titre -->
+        <div class="text-meteo">
+        <h1 class="">Météo de :</h1>
+          <span id="ville"></span><br>
+          <span id="condition"></span>
+       <div id="logo">
+        <img alt="image de la météo">
+       </div>
+       <span class="humidity">humidité :</span>
+                <span id="humidity"> </span>
+          <div id="temperature">
+                <span id="temperature_label"></span> °C <br>
+
+          </div>
+
+        <!-- Changer de ville -->
+        <div id="changer">
+          Changer de ville
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>

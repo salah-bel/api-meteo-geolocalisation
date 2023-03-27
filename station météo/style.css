@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    padding-top: 200px;
+    background-image: url('https://images4.alphacoders.com/679/679373.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center center;
+
+  }
+
+  #ville {
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 3em;
+  }
+
+  #temperature {
+    font-size: 4em;   
+     margin-bottom: 30px;
+  }
+  
+  #changer {
+    background: rgba(2, 1, 28, 0.44);
+    cursor: pointer;
+    display: inline;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 2em;
+
+  }
+  .border-station{
+    border: 6px rgba(135, 206, 250)solid;
+    border-radius: 0px 50px;
+    display:inline-block;
+    text-align: center;
+    background-color:  	rgba(135,206,250,0.5)
+
+
+  }
+.humidity{
+    font-size: small;
+}
+#humidity{
+    font-size: large;
+}
+.text-meteo{
+    margin: 80px 155px;
+}
